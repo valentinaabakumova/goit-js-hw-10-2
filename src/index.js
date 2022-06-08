@@ -88,3 +88,5 @@ function makeTable(data) {
 function clearTable() {
   refs.countryList.innerHTML = '';
 }
+
+////
