@@ -1,6 +1,10 @@
 export default function getRefs() {
   return {
-    cardContainer: document.querySelector('.js-card-container'),
-    searchForm: document.querySelector('.js-search-form'),
+    // inputCountry: document.querySelector('#search-box'),
+    // countryInfoContainer: document.querySelector('.country-info'),
+
+    inputCountry: document.querySelector('#search-box'),
+    countryList: document.querySelector('.country-list'),
+    countryInfoContainer: document.querySelector('.country-info'),
   };
 }
